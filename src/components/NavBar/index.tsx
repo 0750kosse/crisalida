@@ -6,7 +6,7 @@ import { NavBarProps } from '../../types'
 const NavBarLinkContainer = styled.nav<NavBarProps>`
 display: ${props => (props.open ? "flex" : "block")};
 flex-direction: ${props => (props.open ? "column" : "block")};
-width:${props => (props.open ? "50vw" : "-100vw")};
+width:${props => (props.open ? "70vw" : "-100vw")};
 height: ${props => (props.open ? "100vh" : "0")};
 transition: ${props => (props.open ? ".3s" : "0")};
 padding: 0 3rem;
@@ -14,8 +14,8 @@ position: absolute;
 top: 5.45rem;
 right: 0;
 text-align: left;
-background:black;
-color:white;
+background:#001f3f;
+color:${props => (props.open ? "#ffd460" : "transparent")};
 ${mediaQueries("portrait")`
   display:flex;
   position:relative;
@@ -40,6 +40,7 @@ text-decoration: none;
 ${mediaQueries("portrait")`
 font-size:1rem;
 padding:0;
+color:#001f3f;
 `}
 `
 const links = [

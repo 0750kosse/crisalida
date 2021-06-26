@@ -9,7 +9,7 @@ const HeaderSection = styled.header`
 display:flex;
 flex-direction:row;
 padding: 1rem;
-background:red;
+background:#ffd460;
 ${mediaQueries("portrait")`
 justify-content: space-between;
 align-items: center;

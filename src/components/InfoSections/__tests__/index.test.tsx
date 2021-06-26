@@ -1,0 +1,20 @@
+import React from 'react'
+import { Statement } from '../index'
+import { render, screen } from '@testing-library/react'
+
+describe('Statement component', () => {
+  it('should render', () => {
+    const wrapper = render(<Statement />)
+    expect(wrapper).toMatchSnapshot()
+  })
+  it('should show some text', () => {
+    render(<Statement subheader='it IS personal.' />);
+    expect(screen.getByText('it IS personal.')).toBeInTheDocument();
+  })
+  it('should contain a h2 and h3', () => {
+    const wrapper = render(<Statement />);
+    expect(screen.getByRole("heading", { level: 2 })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { level: 3 })).toBeInTheDocument()
+
+  })
+})

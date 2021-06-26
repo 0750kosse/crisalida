@@ -14,3 +14,12 @@ export interface BurguerIconProps {
   open: boolean,
   setOpen: (x: boolean) => void
 }
+
+export interface InfoSectionsProps {
+  header: string,
+  subheader?: string,
+  image?: any,
+  imageDescription?: string,
+  cta?: boolean,
+  ctaDescription?: string
+}

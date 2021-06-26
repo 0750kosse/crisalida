@@ -1,61 +1,33 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render Navbar component 1`] = `
+exports[`Statement component should render 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <nav
-        class="sc-bdnxRM eyJXNo"
+      <div
+        class="sc-bdnxRM bbVFQN"
       >
-        <a
-          class="sc-gtsrHT hDNSpz"
-        >
-          Ventas
-        </a>
-        <a
-          class="sc-gtsrHT hDNSpz"
-        >
-          Servicios
-        </a>
-        <a
-          class="sc-gtsrHT hDNSpz"
-        >
-          Conocenos
-        </a>
-        <a
-          class="sc-gtsrHT hDNSpz"
-        >
-          Contacta
-        </a>
-      </nav>
+        <h2
+          class="sc-gtsrHT jltfcq"
+        />
+        <h3
+          class="sc-dlnjwi"
+        />
+      </div>
     </div>
   </body>,
   "container": <div>
-    <nav
-      class="sc-bdnxRM eyJXNo"
+    <div
+      class="sc-bdnxRM bbVFQN"
     >
-      <a
-        class="sc-gtsrHT hDNSpz"
-      >
-        Ventas
-      </a>
-      <a
-        class="sc-gtsrHT hDNSpz"
-      >
-        Servicios
-      </a>
-      <a
-        class="sc-gtsrHT hDNSpz"
-      >
-        Conocenos
-      </a>
-      <a
-        class="sc-gtsrHT hDNSpz"
-      >
-        Contacta
-      </a>
-    </nav>
+      <h2
+        class="sc-gtsrHT jltfcq"
+      />
+      <h3
+        class="sc-dlnjwi"
+      />
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
