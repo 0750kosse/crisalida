@@ -6,25 +6,25 @@ Object {
   "baseElement": <body>
     <div>
       <nav
-        class="sc-bdnxRM eyJXNo"
+        class="sc-bdnxRM jNIZGk"
       >
         <a
-          class="sc-gtsrHT hDNSpz"
+          class="sc-gtsrHT biOByv"
         >
           Ventas
         </a>
         <a
-          class="sc-gtsrHT hDNSpz"
+          class="sc-gtsrHT biOByv"
         >
           Servicios
         </a>
         <a
-          class="sc-gtsrHT hDNSpz"
+          class="sc-gtsrHT biOByv"
         >
           Conocenos
         </a>
         <a
-          class="sc-gtsrHT hDNSpz"
+          class="sc-gtsrHT biOByv"
         >
           Contacta
         </a>
@@ -33,25 +33,25 @@ Object {
   </body>,
   "container": <div>
     <nav
-      class="sc-bdnxRM eyJXNo"
+      class="sc-bdnxRM jNIZGk"
     >
       <a
-        class="sc-gtsrHT hDNSpz"
+        class="sc-gtsrHT biOByv"
       >
         Ventas
       </a>
       <a
-        class="sc-gtsrHT hDNSpz"
+        class="sc-gtsrHT biOByv"
       >
         Servicios
       </a>
       <a
-        class="sc-gtsrHT hDNSpz"
+        class="sc-gtsrHT biOByv"
       >
         Conocenos
       </a>
       <a
-        class="sc-gtsrHT hDNSpz"
+        class="sc-gtsrHT biOByv"
       >
         Contacta
       </a>
