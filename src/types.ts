@@ -18,8 +18,10 @@ export interface BurguerIconProps {
 export interface InfoSectionsProps {
   header: string,
   subheader?: string,
+}
+
+export interface ServicesProps {
   image?: any,
-  imageDescription?: string,
   cta?: boolean,
-  ctaDescription?: string
+  ctaText?: string
 }

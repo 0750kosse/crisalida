@@ -5,7 +5,7 @@ import { BurguerIconProps } from '../../types'
 
 const Icon = styled.button<BurguerIconProps>`
 position: absolute;
-right:3%;
+right: 12vw;
 display: flex;
 flex-direction: column;
 justify-content: space-around;

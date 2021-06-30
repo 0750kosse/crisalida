@@ -8,7 +8,8 @@ const App = () => {
       <Header />
       <InfoSection
         header='Crisalida Homes. Un enfoque diferente para comprar o vender tu casa.'
-        subheader='Because we make it personal.' />
+        subheader='Because we make it personal.'
+      />
     </div>
   );
 }
