@@ -6,7 +6,8 @@ export interface NavBarProps {
   text?: string,
   href?: string,
   open: boolean,
-  setOpen?: (x: boolean) => void
+  setOpen?: (x: boolean) => void,
+  scrollY?: Object
 }
 
 export interface BurguerIconProps {
@@ -18,6 +19,10 @@ export interface BurguerIconProps {
 export interface InfoSectionsProps {
   header: string,
   subheader?: string,
+}
+
+export interface HeaderProps {
+  scrollY: Object
 }
 
 export interface ServicesProps {

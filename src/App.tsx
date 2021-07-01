@@ -18,7 +18,7 @@ ${mediaQueries("tablet")`
 const App = () => {
   return (
     <div>
-      <Header />
+      <Header scrollY />
       <InfoSection
         header='Crisalida Homes. Un enfoque diferente para comprar o vender tu casa.'
         subheader='Because we make it personal.'
