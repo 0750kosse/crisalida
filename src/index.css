@@ -1,14 +1,15 @@
 body {
-font-family: 'Grandstander','Roboto', serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-html, body {
   max-width: 1980px;
   margin:0 auto;
   padding:0;
-  overflow-x: hidden;
+  font-family: 'Grandstander','Roboto', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2d4059
+}
+
+html, body {
+overflow-x: hidden;
 }
 
 code {

@@ -21,7 +21,7 @@ export interface InfoSectionsProps {
 }
 
 export interface ServicesProps {
-  image?: any,
-  cta?: boolean,
-  ctaText?: string
+  image: any,
+  cta: string,
+  ctaText: string
 }

@@ -10,7 +10,7 @@ padding:6rem 2rem;
 text-align:right;
 font-size:1.7rem;
 ${mediaQueries("tablet")`
-  height:60vh;
+  height:40vh;
   position: relative;
   `}
 `
@@ -23,6 +23,9 @@ ${mediaQueries("tablet")`
   left: 50%;
   transform: translate(-50%, -50%);
   `}
+  ${mediaQueries("xxl")`
+  width: 60vw;
+  `}
 `
 
 const InfoSubHeader = styled.h3`
@@ -30,10 +33,11 @@ ${mediaQueries("tablet")`
   width: 75vw;
   position: absolute;
   top: 60%;
-  left: 50;
   left: 50%;
   transform: translate(-50%, -50%);
   `}
+  ${mediaQueries("xxl")`
+  width: 60vw;`}
 `
 
 export const InfoSection = (props: InfoSectionsProps) => {

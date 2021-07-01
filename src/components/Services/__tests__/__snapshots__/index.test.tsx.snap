@@ -1,31 +1,39 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Statement component should render 1`] = `
+exports[`Services component should render 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="sc-bdnxRM iqiuVW"
+        class="sc-bdnxRM guQQOO"
       >
-        <h2
-          class="sc-gtsrHT cVkisK"
+        <img
+          alt="Service image"
+          class="sc-gtsrHT dlGufL"
         />
-        <h3
-          class="sc-dlnjwi inbEgx"
+        <h2
+          class="sc-dlnjwi eVwLni"
+        />
+        <a
+          class="sc-hKFxyN dVGNXo"
         />
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="sc-bdnxRM iqiuVW"
+      class="sc-bdnxRM guQQOO"
     >
-      <h2
-        class="sc-gtsrHT cVkisK"
+      <img
+        alt="Service image"
+        class="sc-gtsrHT dlGufL"
       />
-      <h3
-        class="sc-dlnjwi inbEgx"
+      <h2
+        class="sc-dlnjwi eVwLni"
+      />
+      <a
+        class="sc-hKFxyN dVGNXo"
       />
     </div>
   </div>,

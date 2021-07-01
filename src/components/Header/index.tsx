@@ -7,10 +7,12 @@ import { NavBar } from '../NavBar'
 
 const HeaderSection = styled.header`
 position:fixed;
-width:100vw;
 display:flex;
 flex-direction:row;
-padding: 1rem;
+max-width: 1980px;
+width: 100%;
+margin: 0;
+padding: 1rem 0;
 background:#ffd460;
 ${mediaQueries("tablet")`
   z-index:1;
