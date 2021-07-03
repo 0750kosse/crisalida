@@ -15,6 +15,7 @@ width: 100%;
 margin: 0;
 padding: 1rem 0;
 background:${props => props.scrollY ? 'white' : '#ffd460'};
+z-index:9;
 ${mediaQueries("tablet")`
   z-index:1;
   justify-content: space-between;

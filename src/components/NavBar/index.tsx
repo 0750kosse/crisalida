@@ -10,7 +10,6 @@ width:${props => (props.open ? "70vw" : "-100vw")};
 height: ${props => (props.open ? "100vh" : "0")};
 transition: ${props => (props.open ? ".3s" : "0")};
 color:${props => (props.open ? "#ffd460" : "transparent")};
-z-index:1;
 padding: 0 3rem;
 position: absolute;
 top: 5.45rem;
