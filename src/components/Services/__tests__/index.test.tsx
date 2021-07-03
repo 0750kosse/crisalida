@@ -9,9 +9,10 @@ describe('Services component', () => {
     expect(wrapper).toMatchSnapshot()
   })
   it('images should have alt description', () => {
-    render(<Services />)
+    let altText;
+    render(<Services altText="Kitchen" />)
     const image = screen.getByRole('img')
-    expect(image).toHaveAttribute('alt', 'Service image')
+    expect(image).toHaveAttribute('alt', altText)
   })
 })
 

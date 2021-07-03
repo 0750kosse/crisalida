@@ -55,11 +55,11 @@ border-bottom: 1px solid #ffd460;
 `
 
 export const Services = (props: ServicesProps) => {
-  const { image, cta, ctaText } = props;
+  const { image, cta, ctaText, altText } = props;
   return (
     <ServiceContainer>
       <ImageWrapper>
-        <Image src={image} alt="Service image" />
+        <Image src={image} alt={altText} />
       </ImageWrapper>
       <CtaText>{ctaText}</CtaText>
       <Button>{cta}</Button>

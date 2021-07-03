@@ -27,6 +27,7 @@ export interface HeaderProps {
 
 export interface ServicesProps {
   image: any,
+  altText: string,
   cta: string,
   ctaText: string
 }
