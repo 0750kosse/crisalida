@@ -59,7 +59,7 @@ export const Services = (props: ServicesProps) => {
   return (
     <ServiceContainer>
       <ImageWrapper>
-        <Image src={image} alt="Service image" />
+        <Image src={image} alt={image} />
       </ImageWrapper>
       <CtaText>{ctaText}</CtaText>
       <Button>{cta}</Button>

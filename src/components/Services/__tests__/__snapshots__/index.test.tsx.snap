@@ -6,42 +6,40 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-bdnxRM cDnlyk"
+        class="sc-bdnxRM ibnULd"
       >
         <div
           class="sc-gtsrHT cVVDZf"
         >
           <img
-            alt="Service image"
             class="sc-dlnjwi eOnnQT"
           />
         </div>
-        <h2
-          class="sc-hKFxyN bXKtfq"
+        <h1
+          class="sc-hKFxyN eKJemf"
         />
         <a
-          class="sc-eCApnc fUzqFw"
+          class="sc-eCApnc gmwghn"
         />
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="sc-bdnxRM cDnlyk"
+      class="sc-bdnxRM ibnULd"
     >
       <div
         class="sc-gtsrHT cVVDZf"
       >
         <img
-          alt="Service image"
           class="sc-dlnjwi eOnnQT"
         />
       </div>
-      <h2
-        class="sc-hKFxyN bXKtfq"
+      <h1
+        class="sc-hKFxyN eKJemf"
       />
       <a
-        class="sc-eCApnc fUzqFw"
+        class="sc-eCApnc gmwghn"
       />
     </div>
   </div>,
