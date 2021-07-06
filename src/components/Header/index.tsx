@@ -15,6 +15,7 @@ width: 100%;
 margin: 0;
 padding: 1rem 0;
 background:${props => props.scrollY ? 'white' : '#ffd460'};
+transition: background .5s cubic-bezier(.19,1,.22,1) .3s;
 z-index:9;
 ${mediaQueries("tablet")`
   z-index:1;

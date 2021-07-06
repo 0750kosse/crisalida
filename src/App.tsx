@@ -4,7 +4,7 @@ import { mediaQueries } from './mediaqueries'
 import { Header } from './components/Header'
 import { InfoSection } from './components/InfoSections';
 import { Services } from './components/Services'
-import { services } from './lib/data/data'
+import { services, introCompany, aboutIntro } from './lib/data/data'
 
 const ColumnToRowWrapper = styled.div`
 display: flex;
@@ -13,6 +13,9 @@ ${mediaQueries("tablet")`
   flex-direction : row;
   justify-content:space-evenly;
   `}
+${mediaQueries("tablet")`
+  justify-content:center;
+  `}
 `
 
 const App = () => {
@@ -20,8 +23,9 @@ const App = () => {
     <div>
       <Header scrollY />
       <InfoSection
-        header='Crisalida Homes. Un enfoque diferente para comprar o vender tu casa.'
-        subheader='Because we make it personal.'
+        primary
+        header={introCompany.header}
+        subheader={introCompany.subheader}
       />
       <ColumnToRowWrapper>
         {services.map((service, index) => {
@@ -35,8 +39,8 @@ const App = () => {
         })}
       </ColumnToRowWrapper>
       <InfoSection
-        header='Crisalida Homes. Un enfoque diferente para comprar o vender tu casa.'
-        subheader='Because we make it personal.'
+        header={aboutIntro.header}
+        subheader={aboutIntro.subheader}
       />
     </div>
   );

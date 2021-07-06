@@ -7,7 +7,7 @@ import WebFont from 'webfontloader';
 
 WebFont.load({
   google: {
-    families: ['Grandstander:300,400,700', 'Roboto:300,400,700', 'sans-serif']
+    families: ['Roboto:300,400,700', 'Alegreya+Sans:100,300,400,500,700', 'sans-serif']
   }
 });
 
