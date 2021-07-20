@@ -18,9 +18,11 @@ export interface BurguerIconProps {
 
 export interface InfoSectionsProps {
   primary?: boolean,
-  header: string,
+  secondary?: boolean,
+  header?: string,
   subheader?: string,
-  cta?: boolean
+  cta?: boolean,
+  className?: string
 }
 
 export interface HeaderProps {
@@ -32,4 +34,13 @@ export interface ServicesProps {
   altText: string,
   cta: string,
   ctaText: string
+}
+
+export interface SocialMediaIcons {
+  altText: string,
+  image: any
+}
+
+export interface FooterProps {
+  className?: string
 }
