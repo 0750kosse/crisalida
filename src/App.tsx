@@ -10,7 +10,7 @@ const ColumnToRowWrapper = styled.div`
 display: flex;
 flex-direction: column;
 ${mediaQueries("tablet")`
-  flex-direction : row;
+  flex-direction:row;
   justify-content:space-evenly;
   `}
 ${mediaQueries("tablet")`
@@ -29,7 +29,6 @@ const App = () => {
       />
       <ColumnToRowWrapper>
         {services.map((service, index) => {
-          console.log(index)
           return <Services
             key={index}
             image={service.image}
@@ -39,10 +38,11 @@ const App = () => {
         })}
       </ColumnToRowWrapper>
       <InfoSection
+        primary
         header={aboutIntro.header}
         subheader={aboutIntro.subheader}
       />
-    </div>
+    </div >
   );
 }
 
